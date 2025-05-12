@@ -1,0 +1,60 @@
+{
+    "name": "Parallels",
+    "date": "2025",
+    "looptime": 7380,
+    "bpm": 130,
+    "totalframe": 384,
+    "bonusloopA": true,
+    "bonusendloopA": false,
+
+    "colors":["#a1a8ad", "#868c90", "#58636a", "#37444c", "#24343f", "#0c1216"],
+
+    "animearray": [
+        {
+            "name": "drum1_chill",
+            "color": "#9f63b0",
+            "uniqsnd": true
+        },
+        { "name": "drum2_mask", "color": "#9f63b0", "uniqsnd": true },
+        { "name": "drum3_bald", "color": "#9f63b0", "uniqsnd": true },
+        { "name": "drum4_bot", "color": "#9f63b0", "uniqsnd": true },
+        { "name": "drum5_mic", "color": "#9f63b0", "uniqsnd": false },
+
+        { "name": "effect1_chill", "color": "#b08363", "uniqsnd": false },
+        { "name": "effect2_mask","color": "#b08363", "uniqsnd": true },
+        { "name": "effect3_bald", "color": "#b08363", "uniqsnd": true },
+        { "name": "effect4_bot", "color": "#b08363", "uniqsnd": false },
+        { "name": "effect5_mic", "color": "#b08363", "uniqsnd": true },
+
+        { "name": "melo1_chill", "color": "#63b07d", "uniqsnd": true },
+        { "name": "melo2_mask", "color": "#63b07d", "uniqsnd": false },
+        { "name": "melo3_bald", "color": "#63b07d", "uniqsnd": false },
+        { "name": "melo4_bot", "color": "#63b07d", "uniqsnd": true },
+        { "name": "melo5_mic", "color": "#63b07d", "uniqsnd": true },
+
+        { "name": "voice1_chill", "color": "#6399b0", "uniqsnd": false },
+        { "name": "voice2_mask", "color": "#6399b0", "uniqsnd": true },
+        { "name": "voice3_bald", "color": "#6399b0", "uniqsnd": true },
+        { "name": "voice4_bot", "color": "#6399b0", "uniqsnd": false },
+        { "name": "voice5_mic", "color": "#6399b0", "uniqsnd": true }
+    ],
+
+    "bonusarray": [
+        { 
+            "title": "Love",
+            "name": "b1-love",
+            "code": [1,6,11,16,20],
+            "sound": "bonus1_love",
+            "predrop": "bonus_predrop",
+            "loop": 1
+        }],
+
+    "credit":{
+        "crewname": "kelpy",
+        "process":["kelpy"],
+        "music":["kelpy"],
+        "design":["kelpy"],
+        "animation":["kelpy"],
+        "thanks": "To the best community ever"
+    }
+}
